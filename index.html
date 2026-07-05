@@ -232,7 +232,8 @@
       position: relative;
       z-index: 2;
 
-      max-width: 760px;
+      width: 100%;
+      max-width: none;
     }
 
     .eyebrow {
@@ -277,7 +278,8 @@
     }
 
     .hero p {
-      max-width: 680px;
+      width: 100%;
+      max-width: none;
 
       margin: 0;
 
@@ -285,6 +287,8 @@
 
       font-size: 17px;
       line-height: 1.75;
+
+      white-space: nowrap;
     }
 
     .hero-line {
@@ -815,6 +819,10 @@
       .form-card {
         order: 1;
       }
+
+      .hero p {
+        white-space: normal;
+      }
     }
 
     /* =========================
@@ -855,6 +863,8 @@
       .hero p {
         font-size: 14px;
         line-height: 1.65;
+
+        white-space: normal;
       }
 
       .hero-image-box {
@@ -973,9 +983,7 @@
           </h1>
 
           <p>
-            Have a question or need assistance?
-            Contact us directly, send us a message,
-            or find the nearest First Nutrition branch.
+            Have a question or need assistance? Contact us directly, send us a message, or find the nearest First Nutrition branch.
           </p>
 
           <div class="hero-line"></div>
